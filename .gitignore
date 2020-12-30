@@ -1,0 +1,5 @@
+# IDEA folder
+.idea/
+
+#PyCharm Virtual Environment directory
+venv
