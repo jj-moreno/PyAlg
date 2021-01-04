@@ -43,3 +43,16 @@ def selectionsort(arr):
 
 arr2, num2 = selectionsort(arr2)
 print(arr2, num2)
+
+
+def everyother(array):
+    counter = 0
+    length = len(array)
+    newarr = []
+    while counter < length:
+        newarr.append(array[counter])
+        counter += 2
+    print(newarr)
+
+
+everyother(arr2)
