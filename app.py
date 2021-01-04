@@ -45,14 +45,20 @@ arr2, num2 = selectionsort(arr2)
 print(arr2, num2)
 
 
-def everyother(array):
-    counter = 0
-    length = len(array)
-    newarr = []
-    while counter < length:
-        newarr += array[counter],
-        counter += 2
-    print(newarr)
+# def everyother(array):
+#     counter = 0
+#     length = len(array)
+#     newarr = []
+#     while counter < length:
+#         newarr += array[counter],
+#         counter += 2
+#     print(newarr)
 
 
-everyother(arr2)
+# everyother(arr2)
+
+################################################################
+arr3 = [4, 2, 7, 1, 3]
+
+
+def insertionsort(arr):
