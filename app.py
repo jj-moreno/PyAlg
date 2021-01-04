@@ -50,7 +50,7 @@ def everyother(array):
     length = len(array)
     newarr = []
     while counter < length:
-        newarr.append(array[counter])
+        newarr += array[counter],
         counter += 2
     print(newarr)
 
